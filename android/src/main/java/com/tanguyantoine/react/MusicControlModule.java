@@ -105,7 +105,7 @@ public class MusicControlModule extends ReactContextBaseJavaModule {
     }
 
     public void destroy() {
-        notification.hide();
+        if (notification != null) notification.hide();
         session.release();
         getReactApplicationContext().unregisterReceiver(receiver);
 
@@ -218,7 +218,7 @@ public class MusicControlModule extends ReactContextBaseJavaModule {
         md = new MediaMetadataCompat.Builder();
         pb = new PlaybackStateCompat.Builder();
 
-        notification.hide();
+        if (notification != null) notification.hide();
         session.setActive(false);
     }
 
