@@ -105,6 +105,7 @@ public class MusicControlModule extends ReactContextBaseJavaModule {
     }
 
     public void destroy() {
+        if(!init) return;
         if (notification != null) notification.hide();
         session.release();
         getReactApplicationContext().unregisterReceiver(receiver);
