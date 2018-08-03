@@ -1,22 +1,83 @@
 {
-  "name": "react-native-music-control",
-  "version": "0.3.3",
+  "_args": [
+    [
+      "react-native-music-control@^0.3.3",
+      "/Users/SLEE/Github/Aura"
+    ]
+  ],
+  "_from": "react-native-music-control@>=0.3.3 <0.4.0",
+  "_id": "react-native-music-control@0.3.4",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/react-native-music-control",
+  "_nodeVersion": "7.4.0",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/react-native-music-control-0.3.4.tgz_1488263105371_0.251797107513994"
+  },
+  "_npmUser": {
+    "email": "antoine.tanguy35@gmail.com",
+    "name": "jakikiller"
+  },
+  "_npmVersion": "4.0.5",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "react-native-music-control",
+    "raw": "react-native-music-control@^0.3.3",
+    "rawSpec": "^0.3.3",
+    "scope": null,
+    "spec": ">=0.3.3 <0.4.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-native-music-control/-/react-native-music-control-0.3.4.tgz",
+  "_shasum": "a0db72ca6459ac2ce1000032aade1222168c529f",
+  "_shrinkwrap": null,
+  "_spec": "react-native-music-control@^0.3.3",
+  "_where": "/Users/SLEE/Github/Aura",
+  "author": {
+    "name": "Tanguy Antoine"
+  },
+  "bugs": {
+    "url": "https://github.com/tanguyantoine/react-native-music-control/issues"
+  },
+  "dependencies": {},
   "description": "Add information on lockscreen and control playing music",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "a0db72ca6459ac2ce1000032aade1222168c529f",
+    "tarball": "https://registry.npmjs.org/react-native-music-control/-/react-native-music-control-0.3.4.tgz"
+  },
+  "gitHead": "18ffb921895e507d46e756987a892be5c6048e54",
+  "homepage": "https://github.com/tanguyantoine/react-native-music-control#readme",
   "keywords": [
-    "react",
-    "react-native",
-    "remote controls",
+    "MPNowPlayingInfoCenter",
     "lockscreen",
     "nowplaying",
-    "MPNowPlayingInfoCenter"
+    "react",
+    "react-native",
+    "remote controls"
   ],
+  "maintainers": [
+    {
+      "name": "jakikiller",
+      "email": "antoine.tanguy35@gmail.com"
+    }
+  ],
+  "name": "react-native-music-control",
+  "optionalDependencies": {},
+  "peerDependencies": {
+    "react-native": ">=0.40.0"
+  },
+  "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tanguyantoine/react-native-music-control.git"
   },
-  "author": "Tanguy Antoine",
-  "peerDependencies": {
-    "react-native": ">=0.40.0"
-  },
-  "rnpm": {}
+  "rnpm": {},
+  "scripts": {},
+  "version": "0.3.4"
 }
